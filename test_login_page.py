@@ -19,7 +19,6 @@ def test_register_form(browser):
 def test_login_page(browser):
     transition_to = WorkingOnElements(browser)
     transition_to.open_login()
-    # transition_to.account_login_transition_button()
     transition_to.entered_auth_login("igorfesenko25+5496768@gmail.com")
     transition_to.entered_auth_login_password("qwerty")
     transition_to.submit_button_login()

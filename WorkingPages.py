@@ -47,10 +47,6 @@ class WorkingOnElements(BasePage):
     def check_registration_passed(self):
         assert self.find_element(RegisterPageLocators.CHECK_BUTTON, time=2), "Registration Failed!!!"
 
-    def account_login_transition_button(self):
-        pass
-        # return self.find_element(AccountLoginTransition.AUTH_LOGIN).click()
-
     def entered_auth_login(self, word):
         set_in = self.find_element(AccountLoginTransition.AUTH_EMAIL)
         set_in.click()
