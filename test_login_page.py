@@ -10,7 +10,7 @@ def test_register_form(browser):
     go_to.entered_last_name("Test")
     go_to.entered_email(f"igorfesenko25+{nmbr}@gmail.com")
     go_to.entered_password("qwerty")
-    go_to.entered_phone_number("508585852")
+    # go_to.entered_phone_number("508585852")
     go_to.click_checkbox()
     go_to.click_registration_button()
     go_to.check_registration_passed()

@@ -6,9 +6,9 @@ class RegisterPageLocators:
     LAST_NAME_FIELD = (By.ID, "last_name")
     EMAIL_FIELD = (By.ID, "email")
     PASSWORD_FIELD = (By.ID, "password")
-    PHONE_NUMBER_FIELD = (By.NAME, "phone")
-    CHECKBOX = (By.CSS_SELECTOR, "#policy_confirm")
-    BUTTON_SUBMIT = (By.XPATH, '//*[@id="signup-form"]/div[6]/div[1]/button')
+    # PHONE_NUMBER_FIELD = (By.NAME, "phone")
+    CHECKBOX = (By.ID, "policy_confirm")
+    BUTTON_SUBMIT = (By.CLASS_NAME, 'primary ui-button')
     CHECK_BUTTON = (By.ID, "btn-confirm-code")
 
 
