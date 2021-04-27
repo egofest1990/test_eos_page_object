@@ -29,11 +29,11 @@ class WorkingOnElements(BasePage):
         this.send_keys(word)
         return this
 
-    def entered_phone_number(self, word):
-        job = self.find_element(RegisterPageLocators.PHONE_NUMBER_FIELD)
-        job.click()
-        job.send_keys(word)
-        return job
+    # def entered_phone_number(self, word):
+        # job = self.find_element(RegisterPageLocators.PHONE_NUMBER_FIELD)
+        # job.click()
+        # job.send_keys(word)
+        # return job
 
     def click_checkbox(self):
         please = self.find_element(RegisterPageLocators.CHECKBOX)
